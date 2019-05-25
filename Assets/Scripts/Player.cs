@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
 
         bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
         if (jumpButtonPressed == true && touchingGround == true)
+  
         {
             //We have pressed Jump so we should set our upward velocity to our jumpSpeed
             velocity.y = jumpSpeed;
