@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 2a25da12e37d3e54f95106a712763fd3
-  - enabled: 0
-    path: Assets/Scenes/Old Game Level.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 09b9210dc4bf17742a54f782e3eed108
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 0b471e5f4d2eec9448351b7f0f239afc
