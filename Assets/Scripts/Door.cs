@@ -22,7 +22,7 @@ public class Door : MonoBehaviour {
             if (playerScript != null)
             {
                 //Save the score using our score object reference
-                scoreObject.SaveScore();
+               // scoreObject.SaveScore();
 
 
 
