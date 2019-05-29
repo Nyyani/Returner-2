@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 298068905}
   - component: {fileID: 298068904}
   - component: {fileID: 298068903}
+  - component: {fileID: 298068906}
   m_Layer: 0
   m_Name: Time Piece (3)
   m_TagString: Untagged
@@ -720,6 +721,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &298068906
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298068901}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &310178989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1253,7 @@ GameObject:
   - component: {fileID: 468878541}
   - component: {fileID: 468878540}
   - component: {fileID: 468878539}
+  - component: {fileID: 468878542}
   m_Layer: 0
   m_Name: Time Piece (2)
   m_TagString: Untagged
@@ -1341,6 +1363,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &468878542
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 468878537}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &478515466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,6 +1855,7 @@ GameObject:
   - component: {fileID: 666221216}
   - component: {fileID: 666221215}
   - component: {fileID: 666221214}
+  - component: {fileID: 666221217}
   m_Layer: 0
   m_Name: Time Piece
   m_TagString: Untagged
@@ -1922,6 +1965,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &666221217
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 666221212}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &714928020
 GameObject:
   m_ObjectHideFlags: 0

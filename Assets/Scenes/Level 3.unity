@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 81017936}
   - component: {fileID: 81017935}
   - component: {fileID: 81017934}
+  - component: {fileID: 81017937}
   m_Layer: 0
   m_Name: Time Piece (3)
   m_TagString: Untagged
@@ -401,6 +402,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &81017937
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81017932}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &99151386
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +521,7 @@ GameObject:
   - component: {fileID: 105358149}
   - component: {fileID: 105358148}
   - component: {fileID: 105358147}
+  - component: {fileID: 105358150}
   m_Layer: 0
   m_Name: Time Piece (2)
   m_TagString: Untagged
@@ -609,6 +631,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &105358150
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105358145}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &174123269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1159,7 @@ GameObject:
   - component: {fileID: 457709859}
   - component: {fileID: 457709858}
   - component: {fileID: 457709857}
+  - component: {fileID: 457709860}
   m_Layer: 0
   m_Name: Time Piece
   m_TagString: Untagged
@@ -1226,6 +1269,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &457709860
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457709855}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &541764022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1483,7 @@ GameObject:
   - component: {fileID: 768585462}
   - component: {fileID: 768585461}
   - component: {fileID: 768585460}
+  - component: {fileID: 768585463}
   m_Layer: 0
   m_Name: Time Piece (1)
   m_TagString: Untagged
@@ -1529,6 +1593,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &768585463
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768585458}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &803371814
 GameObject:
   m_ObjectHideFlags: 0
@@ -56186,6 +56270,7 @@ GameObject:
   - component: {fileID: 1877683019}
   - component: {fileID: 1877683018}
   - component: {fileID: 1877683017}
+  - component: {fileID: 1877683020}
   m_Layer: 0
   m_Name: Time Piece (4)
   m_TagString: Untagged
@@ -56295,6 +56380,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1877683020
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877683015}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 971db029418d5124b8d12d1bf293af23, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1896861509
 GameObject:
   m_ObjectHideFlags: 0

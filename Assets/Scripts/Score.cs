@@ -34,7 +34,7 @@ public class Score : MonoBehaviour {
 	}
 
     //Function to increase the score
-    //  Public so other scripts can use it (such as the coin)
+    //  Public so other scripts can use it (such as the collectable)
     public void AddScore(int _toAdd)
     {
         // Add the amount to the numerica score
