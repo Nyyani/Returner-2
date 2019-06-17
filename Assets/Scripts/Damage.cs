@@ -4,7 +4,24 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
+    public int health = 100;
 
+    public GameObject deathEffect;
+
+    public void TakeDamage (int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        
+        }
+       
+    }
+    void Die()
+    {
+        Destroy(gameObject);
+    }
     //This function is called automatically when the player touches anything that will damage them (a slime enemy or a pit)
 
     private void OnCollisionEnter2D(Collision2D collision)
