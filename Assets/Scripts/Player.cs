@@ -19,12 +19,15 @@ public class Player : MonoBehaviour
     public SpriteRenderer playerSprite;
     public Collider2D playerCollider;
 
+   
+
     //Variable to keep a reference to the lives object
     public Lives livesObject;
 
     // Use this for initialization
     void Start()
     {
+     
 
     }
 
@@ -74,6 +77,8 @@ public class Player : MonoBehaviour
         if (jumpButtonPressed == true && touchingGround == true)
   
         {
+            SoundManagerScript.PlaySound("jumpSound");
+
             //We have pressed Jump so we should set our upward velocity to our jumpSpeed
             velocity.y = jumpSpeed;
 
