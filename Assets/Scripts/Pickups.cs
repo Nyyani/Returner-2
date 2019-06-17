@@ -35,7 +35,7 @@ public class Pickups : MonoBehaviour
         if (playerScript)
         {
             //We hit the player!
-
+            SoundManagerScript.PlaySound("coinSound");
             //Add to the score based on our value
             scoreObject.AddScore(timepieceValue);
 

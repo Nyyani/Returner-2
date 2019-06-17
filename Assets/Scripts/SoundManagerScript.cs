@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
 
-    public static AudioClip jumpSound;
+    public static AudioClip jumpSound, coinSound;
     static AudioSource audioSrc;
 
 	// Use this for initialization
 	void Start () {
 
         jumpSound = Resources.Load<AudioClip>("jumpSound");
+        coinSound = Resources.Load<AudioClip>("coinSound");
 
         audioSrc = GetComponent<AudioSource>();
 		
@@ -27,6 +28,9 @@ public class SoundManagerScript : MonoBehaviour {
         {
             case "jumpSound":
                 audioSrc.PlayOneShot(jumpSound);
+                break;
+            case "coinSound":
+                audioSrc.PlayOneShot(coinSound);
                 break;
         }
     }
